@@ -18,7 +18,7 @@ Clique em <i>Create Workspace</i>
 
 Dê um nome ao Workspace, Descrição, clique em ‘Enable private Networking’ e selcione uma VCN e uma Subnet <i>PRIVADA</i>. Em seguida clique em <i>Create</i>.
 
-![image](https://user-images.githubusercontent.com/46925501/161566315-f85004fc-6e76-4235-91a6-36bacfca009f.png)
+![image](https://user-images.githubusercontent.com/46925501/161566794-3ef55c8f-874b-4169-9580-dea209d0aa01.png)
 
 Após alguns minutos você verá seu workspace listado como <i>Active</i>.
 
