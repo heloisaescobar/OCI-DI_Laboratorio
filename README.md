@@ -75,7 +75,7 @@ Mais abaixo, na mesma página mantenha o botão de rádio Upload Wallet selecion
 
 ![image](https://user-images.githubusercontent.com/46925501/155430535-0d260919-2398-44e5-832c-75601b5f8655.png)
 
-Deixe a opção Default Connection no Name e Identifier. Em seguida coloque o User name e Password fornecido (em caso de dúvida informe ao palestrante que ele te fornecerá as credenciais).
+Deixe a opção Default Connection no Name e Identifier. Em seguida coloque o User name e Password fornecido na criação do banco de dados.
   
 Clique em Teste Connection, se a conexão for bem sucedida clique no botão <i>Create</i>.
 
