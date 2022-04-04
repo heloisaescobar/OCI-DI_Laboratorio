@@ -41,7 +41,7 @@ Em seguida, clique sobre o nome da instância de Autonomous Data Warehouse que v
 
 Você será redirecionado para uma janela com os detalhes da instância de Autonomous Data Warehouse. Nesta tela clique sobre o botão DB Connection.
 
-![image](https://user-images.githubusercontent.com/46925501/155430331-200b01a7-c21d-4a74-a72a-f0c4d664affc.png)
+![image](https://user-images.githubusercontent.com/46925501/161569598-8ab556b7-87fb-42a4-8803-8638172c36d4.png)
 
 Uma caixa de diálogo será exibida. Nesta, clique em Download Wallet.
 
