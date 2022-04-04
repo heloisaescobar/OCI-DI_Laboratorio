@@ -109,7 +109,7 @@ Nesta fase, necessitamos de algumas informações que estão distribuídas na co
 
 Na aba duplicada, no o canto superior direito clique na figura humana e, em seguida, clique em Tenancy.
   
-![image](https://user-images.githubusercontent.com/46925501/155431013-f407c853-719f-4012-abd9-88abe3af021e.png)
+![image](https://user-images.githubusercontent.com/46925501/161623563-900a6e03-8230-4cc2-8d25-a383893807bf.png)
 
 Uma tela com os detalhes da Tenancy será exibida. Localize o campo OCID e clique em Copy.
   
