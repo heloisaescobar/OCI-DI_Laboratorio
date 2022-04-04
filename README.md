@@ -22,4 +22,4 @@ Dê um nome ao Workspace, Descrição, clique em ‘Enable private Networking’
 
 Após alguns minutos você verá seu workspace listado como <i>Active</i>.
 
-![image](https://user-images.githubusercontent.com/46925501/155430098-223d7788-d99e-4c73-8a50-3199a3302ecd.png)
+![image](https://user-images.githubusercontent.com/46925501/161567062-5b837e0e-6dbc-4f7d-9c3e-e65e97ac5d32.png)
