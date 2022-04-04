@@ -14,7 +14,7 @@ Expanda a lista de serviços da OCI utilizando o menu de hambúrguer, no canto s
 
 Clique em <i>Create Workspace</i>
 
-![image](https://user-images.githubusercontent.com/46925501/161565322-a09b0a09-bae4-410b-b5b2-e5317d38f143.png)
+![image](https://user-images.githubusercontent.com/46925501/161565524-9048b915-44b0-489e-90ad-b53b643e4478.png)
 
 Dê um nome ao Workspace, Descrição, clique em ‘Enable private Networking’ e selcione uma VCN e uma Subnet <i>PRIVADA</i>. Em seguida clique em <i>Create</i>.
 
