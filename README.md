@@ -113,9 +113,9 @@ Na aba duplicada, no o canto superior direito clique na figura humana e, em segu
 
 Uma tela com os detalhes da Tenancy será exibida. Localize o campo OCID e clique em Copy.
   
-![image](https://user-images.githubusercontent.com/46925501/155431039-2c5f3b51-e925-46c7-bb98-94fd731547e1.png)
+![image](https://user-images.githubusercontent.com/46925501/161624072-3d7bc5e3-e421-43ba-96cc-6731a8e8194e.png)
 
-Reserve esse ID da tenancy, em seguida copie e reserve o identificador do Namespace do Object Storage (indicado em azul na imagem acima).
+Reserve esse ID da tenancy, em seguida copie e reserve o identificador do Namespace do Object Storage.
 
 Retorne à aba do OCI Data Integration em que está criando o data asset do Object Storage e insira os valores copiados no campo Tenant OCID e Namespace. (Geralmente o campo Namespace é preenchido automaticamente após você colocar o OCID da tenancy, mas caso isso não ocorra cole o Namespace que você salvou no passo anterior)
 A ultima informação necessário para configurarmos o Data Asset do Object Storage é o identificador da sua Region, você vai encontra-lo em sua URL como representado no imagem abaixo
