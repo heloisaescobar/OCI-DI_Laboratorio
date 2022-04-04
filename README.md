@@ -57,7 +57,7 @@ Acesse a aba do OCI Data Integration:
 
 E selecione o Workspace que foi criado durante a parte de preparação do ambiente:
 
-![image](https://user-images.githubusercontent.com/46925501/155430413-d5c13497-26d4-4a64-877c-2abc02b7368e.png)
+![image](https://user-images.githubusercontent.com/46925501/161567062-5b837e0e-6dbc-4f7d-9c3e-e65e97ac5d32.png)
 
 Clique no sinal de <b>+</b> e em seguida clique em Data Assets
 
