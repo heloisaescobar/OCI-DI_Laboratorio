@@ -37,7 +37,7 @@ Expanda a lista de serviços da OCI utilizando o menu de hambúrguer, no canto s
 
 Em seguida, clique sobre o nome da instância de Autonomous Data Warehouse que você tenha disponível (pré-requisito)
 
-![image](https://user-images.githubusercontent.com/46925501/155430313-ddc907a0-e375-42c4-9328-48dec42212ee.png)
+![image](https://user-images.githubusercontent.com/46925501/161569330-7b917faa-c748-40da-ad99-5243dd606613.png)
 
 Você será redirecionado para uma janela com os detalhes da instância de Autonomous Data Warehouse. Nesta tela clique sobre o botão DB Connection.
 
