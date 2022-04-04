@@ -124,7 +124,7 @@ A ultima informação necessário para configurarmos o Data Asset do Object Stor
   
 Agora preencha as informações conforme a imagem abaixo:
 
-![image](https://user-images.githubusercontent.com/46925501/155431113-1920ab63-c9a8-44d8-9b48-1fbaef95406b.png)
+![image](https://user-images.githubusercontent.com/46925501/161624619-7d3e88e2-9efc-49b5-91a0-60376dc1fb80.png)
 
 Mantenha as opções de Connection como estão e clique em Test Connection.
 Se conexão for bem sucedida clique em Create:
