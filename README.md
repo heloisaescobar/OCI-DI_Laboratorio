@@ -1,5 +1,11 @@
 # Laboratório - Criação Pipeline de Dados (OCI Data Integration e OCI Data Flow)
 
+## Roteiro
+* [Provisionamento Workspace - OCI Data Integration]
+* [Provisionamento Data Flow]
+* [Preparação Procedure - Autonomous]
+* [Montagem Pipeline]
+
 ## OCI Data Integration
 
 <i>Pré Requisitos: Ter Compartimento Criado, VCN, Aplicar as [Policies](https://github.com/heloisaescobar/InLab-Pipeline-Dados-Aplicado-Eventos/blob/master/scripts_apoio/policies_anexo.txt)</i>.
