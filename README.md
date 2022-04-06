@@ -4,7 +4,7 @@
 
 <i>Pré Requisitos: Ter Compartimento Criado, VCN, Aplicar as [Policies](https://github.com/heloisaescobar/InLab-Pipeline-Dados-Aplicado-Eventos/blob/master/scripts_apoio/policies_anexo.txt)</i>.
 
-### Criação do Workspace
+### Provisionamento Workspace
 
 <b>Provisionamento do Workspace</b>
 
