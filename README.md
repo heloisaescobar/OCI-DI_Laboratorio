@@ -505,12 +505,81 @@ Na tela do Pipeline desing, no painel de Properties, dê um nome ao Pipeline e v
 <b>Configurando os Operadores</b>
 
 * OCI DATA FLOW
-Vamos iniciar configurando o Operação de Chamada do OCI Data Flow, para isso selecione o Operador ![image](https://user-images.githubusercontent.com/46925501/162036360-99c6d47a-a96a-442c-b51d-d9df2072d299.png) e interligue ao operador START conforme imagem
+Vamos iniciar configurando o Operação de Chamada do OCI Data Flow, para isso selecione o Operador <i>OCI DATA FLOW</i> e interligue ao operador START conforme imagem
   
 ![image](https://user-images.githubusercontent.com/46925501/162036447-385e422a-15a8-461d-945c-0c6c15eb0566.png)
+  
+Clique com o botão direito sobre o operador OCI DATA FLOW e clique em <i>general</i>. Irá aparecer um formulário para apontarmos para a tarefa que relacionamos a nossa aplicação do OCI Data Flow
+![image](https://user-images.githubusercontent.com/46925501/162036797-533b4719-8d36-4412-a5f8-383cd4b3d6c7.png)
 
+* DATA INTEGRATION
+Próximo Operador que vamos adicionar ao pipeline é <i>DATA INTEGRATION</i> onde vamos fazer a chamada do Fluxo que Dados que criamos nos passos anteriores. Para isso arrastar para o canvas o operador <i>DATA INTEGRATION</i> e interligar ao operador <i>OCI DATA FLOW</i> conforme imagem
+![image](https://user-images.githubusercontent.com/46925501/162037244-f35c9dfb-fd2a-405e-ace7-6260567842a6.png)
 
+Clique com o botão direito sobre o operador OCI DATA INTEGRATION e clique em <i>general</i>
+Vamos realizar uma configuração similar ao operador anterior. Um ponto adicional nesse operador que em <i>Incoming link condition</i>, vamos selecionar a opção <i>Run on success of previous operator</i>
+  
+![image](https://user-images.githubusercontent.com/46925501/162037775-11d9a58e-e80f-4114-9744-764ed17b7583.png)
 
+* EXPRESSION
+Seguimos com o próximo operador, agora vamos adicionar ao nosso pipeline o operador <i>EXPRESSION</i>. O objetivo desse operador é coletarmos o Nome do nosso pipeline e a tarefa para que possamos fazer a ingestão dessa informação na tabela de controle.
+Para isso arrastar o operador para o canvas e ligar no operador DATA INTEGRATION conforme imagem
+![image](https://user-images.githubusercontent.com/46925501/162038421-d8ecbbab-da3e-4bdf-9e9a-1e0a4975d054.png)
+
+Clique com o botão direito no operador expression e clique em <i>general</i>. Vamos adicionar um expressão nesse operador, para isso clique em ADD
+![image](https://user-images.githubusercontent.com/46925501/162038801-23aa85ab-23bc-4389-947d-34f890bc6d73.png)
+
+Configure conforme o formulário da imagem abaixo
+![image](https://user-images.githubusercontent.com/46925501/162038976-babc738c-a841-4c2b-8cba-526f6436b482.png)
+  
+Agora Vamos adicionar <b>dois</b> operador <i>SQL</i> e ligar eles ao operador <i>EXPRESSION</i> e a saída de ambos ligar ao operador <i>END</i>
+![image](https://user-images.githubusercontent.com/46925501/162039340-0a9d4f16-f12e-43a8-8846-120587a5aa14.png)
+
+* SQL
+Vamos iniciar a configuração do primeiro operador <i>SQL</i>, ele será o caminho de sucesso do nosso pipeline. Clicar com o botão direito do mouse e clicar em <i>general</i>. Vamos atribuir um nome para ele, selecionar a procedure criada e em <i>Incoming link condition</i> selecionar a opção <i>Run on success of previous operator</i>, conforme imagem
+![image](https://user-images.githubusercontent.com/46925501/162039827-9f386e9a-ae0f-4e7b-aa7f-c59a1497e915.png)
+  
+Ainda no operador, vamos configurar os parâmetros, clicando em configuration e configure
+![image](https://user-images.githubusercontent.com/46925501/162040040-087c9a38-6bae-43fb-bc99-6b485ed1e6e8.png)
+
+Como vemos na imagem temos dois parâmetros que vamos configurar, clique em configure do parâmetro IN_DI_RESULT
+![image](https://user-images.githubusercontent.com/46925501/162040269-b8fa46a3-c459-4ee9-8355-8b1434f8c608.png)
+
+Adicione os valores igual a imagem
+![image](https://user-images.githubusercontent.com/46925501/162040343-ee534ce1-efc2-4954-b17a-19b85f50d516.png)
+
+Realize a configuração do segundo parâmetro
+![image](https://user-images.githubusercontent.com/46925501/162040439-d1309b5d-7bbf-4346-91ab-4bbd301116af.png)
+
+Adicione os valores igual a imagem
+![image](https://user-images.githubusercontent.com/46925501/162040591-ede9232b-3e56-42c0-9787-453f197a3e7d.png)
+  
+Clique em <i>Configure</i>
+  
+Agora vamos configurar o segundo operador <i>SQL</i>, ele será o caminho de erro do nosso pipeline. Clicar com o botão direito do mouse e clicar em <i>general</i>. Vamos atribuir um nome para ele, selecionar a procedure criada e em <i>Incoming link condition</i> selecionar a opção <i>Run on failure of previous operator</i>, conforme imagem
+![image](https://user-images.githubusercontent.com/46925501/162041027-3e3e6347-edec-4338-a990-cd6e8756c1b6.png)
+
+Ainda no operador, vamos configurar os parâmetros, clicando em configuration e configure
+![image](https://user-images.githubusercontent.com/46925501/162041137-61df1f83-92a1-48c2-b3c0-527566ee88e1.png)
+
+Como vemos na imagem temos dois parâmetros que vamos configurar, clique em configure do parâmetro IN_DI_RESULT
+![image](https://user-images.githubusercontent.com/46925501/162041309-a58fb518-fc47-4e00-986a-810fe82cb8b2.png)
+
+Adicione os valores igual a imagem
+![image](https://user-images.githubusercontent.com/46925501/162041381-b9913af2-6657-4e8c-b00a-a56c15f2b2b0.png)
+
+Realize a configuração do segundo parâmetro
+![image](https://user-images.githubusercontent.com/46925501/162041476-fe404497-0a88-4c28-8c79-43becddeee3d.png)
+
+Adicione os valores igual a imagem
+![image](https://user-images.githubusercontent.com/46925501/162041527-6a764759-1d92-4ca0-aee6-bbe29c0fc655.png)
+
+Clique em <i>Configure</i>
+  
+Após finalizar a configuração do pipeline, teremos um Canvas similar a imagem abaixo. Por fim cliquem em <i>Save and close</i>
+![image](https://user-images.githubusercontent.com/46925501/162041794-5005035f-df44-47a4-8113-fd294f70ebab.png)
+
+<b>Criando Integration Task do Pipeline</b>
 
 
 
