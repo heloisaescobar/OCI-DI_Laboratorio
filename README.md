@@ -3,8 +3,8 @@
 ## Roteiro
 * [Provisionamento Workspace - OCI Data Integration](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/README.md#provisionamento-workspace)
 * [Provisionamento Data Flow - OCI Data Flow](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/README.md#provisionamento-data-flow---oci-data-flow)
-* [Preparação Procedure - Autonomous]
-* [Montagem Pipeline - OCI Data Integration]
+* [Preparação Procedure - Autonomous](https://github.com/heloisaescobar/OCI-DI_Laboratorio#prepara%C3%A7%C3%A3o-procedure---autonomous-data-warehouse)
+* [Montagem Pipeline - OCI Data Integration](https://github.com/heloisaescobar/OCI-DI_Laboratorio#montagem-pipeline---oci-data-integration)
 
 ## OCI Data Integration e Data Flow
 
