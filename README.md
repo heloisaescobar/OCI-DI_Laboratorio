@@ -136,9 +136,31 @@ Após clicar no botão, iremos fornecer as informações necessárias para a cri
 
 #### Preparação Procedure - Autonomous Data Warehouse
 
+Antes de iniciarmos a criação do nosso pipeline de dados, vamos dar uma rápida passada por mais um serviço o Autonomous Data Warehouse. Nele além de utilizarmos para futuramente criarmos nossa tabelas de destino, vamos também criar um procedure para armazenamento de resultados de sucesso e erro do nosso pipeline de dados desenvolvido no OCI Data Integration.
 
+Para acessar o Autonomous Data Warehouse, clique no menu de hamburguer > Oracle Database > Autonomous Data Warehouse
 
+![image](https://user-images.githubusercontent.com/46925501/161987497-db56c6df-7a86-4649-bb02-c717a5a5b88e.png)
 
+Em seguida, clique sobre o nome da instância de Autonomous Data Warehouse que você tenha disponível
+
+![image](https://user-images.githubusercontent.com/46925501/161987942-bc8dd58b-8254-4129-b3dc-dc9d0d3b0f43.png)
+
+Você será redirecionado para uma janela com os detalhes da instância de Autonomous Data Warehouse. Nesta tela clique sobre o botão Database Actions
+
+![image](https://user-images.githubusercontent.com/46925501/161988328-3ce4a839-174b-4a2d-8e5a-25502b14a612.png)
+
+Você será direcionado para uma nova console. Cliquem em SQL
+
+![image](https://user-images.githubusercontent.com/46925501/161988543-3bf581b1-c1ec-4a95-bf54-52964981cf47.png)
+
+Copiar o conteúdo do arquivo procedure_status.sql, copiar no worksheet e clique no botão executar
+
+![image](https://user-images.githubusercontent.com/46925501/161990817-d67d68b9-7b92-4830-8f22-43eeea4bc3bd.png)
+
+Verificar se os comandos foram executaos com sucesso.
+
+<b>Atenção:</b> Fizemos a criação da nossa tabela para registro do nosso pipeline e a procedure, contudo não vamos utilizar elas nesse momento.
 
 _________________
 ### Criação dos Data Assets
