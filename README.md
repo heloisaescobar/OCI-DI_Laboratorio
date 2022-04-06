@@ -377,7 +377,7 @@ Agora vamos configurar cada propriedade indicada no painel Properties: Data Asse
   
 ![image](https://user-images.githubusercontent.com/46925501/162007598-10021ea0-792c-4776-8190-d98f74101f41.png)
 
-<b>Configuração os Operador Target</b>
+<b>Configuração Operador Target</b>
   
 Clique no Operador Target que você arrastou até o Canvas do Data Flow, em seguida no Painel Properties dê um nome ao Operador. Em Integration Strategy selecione a opção Insert e habilite e opção <i>Create New Data Entity</i>
 
@@ -392,5 +392,43 @@ Adicionei mais um operador Target no canvas da Data Flow e realize as configura�
 
 ![image](https://user-images.githubusercontent.com/46925501/162009510-52d07c1f-c59b-48a8-841a-f76dff4b9e28.png)
 
+<b>Configurando os Shaping Operators</b>
   
+Coloque no Canvas um Operador Expression e dois operadores Filter.
+  
+Após arrastar os Operadores conecte cada um deles conforme a Imagem Abaixo
 
+![image](https://user-images.githubusercontent.com/46925501/162010162-7a4170ba-a882-437c-ba02-466e0885eb8d.png)
+
+<b>Obs.</b> Para conectar os Operadores basta descansar o mouse sobre o operador até que uma bolinha apareça no lado diretor do operador, após isso basta clicar na bolinha e arrastar a linha até o operador que você deseja fazer a conexão:
+![image](https://user-images.githubusercontent.com/46925501/162010555-d5177383-063d-4e85-b7d5-bda70063c745.png)
+
+* Configurando o Operador Expression
+Clique no Operador Expression que você arrastou até o Canvas do Data Flow, em seguida no Painel Properties dê um nome ao Operador e Clique em Add Expression
+  
+![image](https://user-images.githubusercontent.com/46925501/162011209-43df9649-1927-4bfe-ba0d-fc6f909e6e2e.png)
+
+Preencha os Campos de Acordo com a Imagem e depois clique em Add
+![image](https://user-images.githubusercontent.com/46925501/162011509-ed4ef284-6ec0-4c6b-b658-3b2ffb1737f4.png)
+
+Adicionei outra linha no Operador Expression, preencha os campos de acordo com a Imagem e depois clique em Add
+![image](https://user-images.githubusercontent.com/46925501/162011808-54fea897-a941-43fd-9ed1-eb51d328044c.png)
+
+* Configurando o Operador Filter
+
+Clique no Primeiro Operador Filter que você arrastou até o Canvas do Data Flow, em seguida no Painel Properties dê um nome ao Operador e Clique em Create
+  
+![image](https://user-images.githubusercontent.com/46925501/162012368-2220089e-290e-452f-b50a-017509d2f548.png)
+  
+Preencha conforme formulário abaixo
+  
+![image](https://user-images.githubusercontent.com/46925501/162012576-05d19198-bcd4-4912-9bbf-2def4bfee36c.png)
+  
+Clique no Segundo Operador Filter que você arrastou até o Canvas do Data Flow, em seguida no Painel Properties dê um nome ao Operador e Clique em Create
+
+![image](https://user-images.githubusercontent.com/46925501/162012882-01b3b3fd-bf4e-48eb-8b86-ce1423b7b026.png)
+
+Preencha conforme formulário abaixo
+![image](https://user-images.githubusercontent.com/46925501/162013051-1ad90770-5678-49dd-9602-59b081c1954d.png)
+
+Pronto! Todos os Operadores do Data Flow Designer estão configurado, clique em Save and Close.
