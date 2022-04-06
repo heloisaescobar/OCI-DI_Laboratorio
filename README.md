@@ -361,7 +361,7 @@ Na tela do Data Flow desing, no painel de <i>Properties</i>, dê um nome ao Data
 
 ![image](https://user-images.githubusercontent.com/46925501/162003955-86e2bb56-d59b-4a5c-b9a9-afe35fc195b3.png)
 
-<b>Configurações os Operadores Source</b>
+<b>Configuração Operador Source</b>
  
 Em seguida vamos começar a criação do Fluxo de Dados.
   
@@ -374,3 +374,23 @@ Clique no Operador Source que você arrastou até o Canvas do Data Flow, em segu
 ![image](https://user-images.githubusercontent.com/46925501/162004680-a9013013-5cbe-4f43-8f4c-ff02f1463001.png)
 
 Agora vamos configurar cada propriedade indicada no painel Properties: Data Asset, Connection, Schema e Data Entity
+  
+![image](https://user-images.githubusercontent.com/46925501/162007598-10021ea0-792c-4776-8190-d98f74101f41.png)
+
+<b>Configuração os Operador Target</b>
+  
+Clique no Operador Target que você arrastou até o Canvas do Data Flow, em seguida no Painel Properties dê um nome ao Operador. Em Integration Strategy selecione a opção Insert e habilite e opção <i>Create New Data Entity</i>
+
+![image](https://user-images.githubusercontent.com/46925501/162008391-905b29c2-085b-4d84-96b7-e60030ad0a43.png)
+
+Agora vamos configurar cada propriedade indicada no painel Properties: Data Asset, Connection, Schema, Data Entity e Staging Location. O processo é bem semelhante as configurações do Source Operator.
+Teremos um resultado similar a imagem abaixo
+
+![image](https://user-images.githubusercontent.com/46925501/162009071-acd51380-deb1-4d76-8f42-a3b78f70a2ae.png)
+  
+Adicionei mais um operador Target no canvas da Data Flow e realize as configurações semelhantes ao anterior, contudo mudando o nome do Operador e do Data Entity
+
+![image](https://user-images.githubusercontent.com/46925501/162009510-52d07c1f-c59b-48a8-841a-f76dff4b9e28.png)
+
+  
+
