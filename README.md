@@ -483,10 +483,31 @@ Acesse o <i>Default Application</i> que está disponível no seu Workspace
 Ao acessar a <i>Application</i> você vai localizar as Integrations Task que publicamos na seção anterior
 ![image](https://user-images.githubusercontent.com/46925501/162033248-5acfeb5f-9c97-4b82-87ed-e2f1f743714c.png)
   
-<b>Criando e Configurando o Pipeline de Dados</b>
+#### Criando e Configurando o Pipeline de Dados
 
+Nessa fase vamos criar e configurar nosso pipeline completo de dados.
 
+Dentro no nosso workspace, clicar em + e em seguida clique em Projects
+![image](https://user-images.githubusercontent.com/46925501/162034841-7a84e13a-1201-46c8-b947-2cee7360e9fe.png)
+
+Acesse seu projeto
+![image](https://user-images.githubusercontent.com/46925501/162034935-957addcc-9cdb-4072-8a07-28c9c01639d6.png)
+
+Clique em Pipelines
+![image](https://user-images.githubusercontent.com/46925501/162035455-3b1d38d7-edc2-4b47-9040-e013f4d79804.png)
+
+<b>Criando o Pipeline</b>
+Com o canvas do Pipeline é bem parecido com o Canvas da Data Flow, a diferença é que agora temos operadores que vão chamar as tarefas que criamos nos passos anteriores.
   
+Na tela do Pipeline desing, no painel de Properties, dê um nome ao Pipeline e verifique se o projeto correto está selecionado.
+![image](https://user-images.githubusercontent.com/46925501/162035992-3de87996-f3ba-4cbf-87c3-44cde9e6e32f.png)
+
+<b>Configurando os Operadores</b>
+
+* OCI DATA FLOW
+Vamos iniciar configurando o Operação de Chamada do OCI Data Flow, para isso selecione o Operador ![image](https://user-images.githubusercontent.com/46925501/162036360-99c6d47a-a96a-442c-b51d-d9df2072d299.png) e interligue ao operador START conforme imagem
+  
+![image](https://user-images.githubusercontent.com/46925501/162036447-385e422a-15a8-461d-945c-0c6c15eb0566.png)
 
 
 
