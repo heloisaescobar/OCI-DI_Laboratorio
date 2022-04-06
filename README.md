@@ -282,3 +282,32 @@ Se conexão for bem sucedida clique em Create:
 
 Você finalizou a criação dos Data Assets!
 
+##### Criação Tarefa OCI Data Flow
+  
+Nessa fase vamos configurar a nossa aplicação criada no OCI Data Flow para que seja executado no nosso pipeline de dados dentro do OCI Data Integration.
+  
+Dentro no nosso workspace, clicar em <b>+</b> e em seguida clique em <i>Projects</i>
+  
+![image](https://user-images.githubusercontent.com/46925501/161994564-242b0d37-d0b9-458f-ad53-9e0def67b864.png)
+
+Acesse seu projeto
+  
+![image](https://user-images.githubusercontent.com/46925501/161994961-5d239dc7-694c-4222-852c-0929609c8d79.png)
+
+Clique em <i>Tasks</i>
+
+![image](https://user-images.githubusercontent.com/46925501/161995356-1f966482-dfa9-4bb7-b2c7-56b870b18795.png)
+
+![image](https://user-images.githubusercontent.com/46925501/161995722-45c93437-8e74-4fde-96f8-7416c0f91fee.png)
+  
+Agora preenchemos o formulário, conforme abaixo
+ 
+![image](https://user-images.githubusercontent.com/46925501/161996098-4254ba8a-8f22-4b0b-bc85-490fdb7c47d7.png)
+![image](https://user-images.githubusercontent.com/46925501/161996248-7589fa29-f5e3-4212-8e04-f59cd620a846.png)
+![image](https://user-images.githubusercontent.com/46925501/161996691-9dbf2280-b130-4b2f-bb79-b59977c60249.png)
+![image](https://user-images.githubusercontent.com/46925501/161996891-bd208965-5ce8-4ecc-bb8b-3e45e6e469ce.png)
+![image](https://user-images.githubusercontent.com/46925501/161997141-6742625c-cca6-417d-abd5-9453cbe03ef2.png)
+![image](https://user-images.githubusercontent.com/46925501/161997330-31171734-e55d-47b1-a314-66a95c0f5382.png)
+
+
+
