@@ -71,8 +71,7 @@ Agora nas informações do seu Tenancy, podemos encontrar e copiar o Object Stor
 
 <b>Download dos Arquivos Utilizados</b>
 
-Durante esse laboratório, iremos utilizar o script python <b>csv_to_parquet.py</b> e o dataset <b>framingham.csv</b>. Esses arquivos, você pode localizar no link abaixo:
-####ADD LINK
+Durante esse laboratório, iremos utilizar o script python <b>csv_to_parquet.py</b> e o dataset <b>framingham.csv</b>. Esses arquivos, você pode localizar [AQUI](https://github.com/heloisaescobar/OCI-DI_Laboratorio/tree/main/arquivos_apoio)
 
 <b>Configurando o Script Python</b>
 
