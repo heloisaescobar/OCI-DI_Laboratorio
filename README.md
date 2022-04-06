@@ -432,3 +432,64 @@ Preencha conforme formulário abaixo
 ![image](https://user-images.githubusercontent.com/46925501/162013051-1ad90770-5678-49dd-9602-59b081c1954d.png)
 
 Pronto! Todos os Operadores do Data Flow Designer estão configurado, clique em Save and Close.
+
+<b>Criação do Integration Tasks</b>
+  
+Nessa sessão vamos criar e configurar uma Integration Task
+  
+Clique no sinal de <b>+</b> e selecione Application
+
+![image](https://user-images.githubusercontent.com/46925501/162029091-894c3651-4234-48f0-922b-ec68cc2926e8.png)
+
+Toda Integration Task deverá ser publicada aqui nessa Application. Agora continue para a peóxima sessão.
+  
+<b>Criando Integration Task</b>
+
+Clique no sinal de + e em seguida clique em Projects
+
+![image](https://user-images.githubusercontent.com/46925501/162029468-bf91ec4c-eac8-4a4e-8ab0-ab77a21ffcd4.png)
+
+Selecione seu projeto e em seguida em Task, clique em <i>Create Task</i> e escolha a opção <i>Integration</i>
+
+![image](https://user-images.githubusercontent.com/46925501/162029998-c3c282c6-8bd0-4eec-b5f0-3cd3c8aeaf32.png)
+  
+Dê um nome a <i>Integration Task</i> e verifique se o seu projeto está selecionado, em seguida clique no botão <i>Select</i> para selecionar o Data Flow que será usado na Task
+![image](https://user-images.githubusercontent.com/46925501/162030481-5f3b372a-85ee-4fe7-aa15-28fca49e7dfd.png)
+
+Selecione o Data Flow que criamos na seção anterior e clique em Select
+![image](https://user-images.githubusercontent.com/46925501/162030704-3a050483-f8db-4540-9c38-ae5fe73bd4a4.png)
+  
+Aguarde a validação e clique em <b>Create and Close</b>
+![image](https://user-images.githubusercontent.com/46925501/162031131-05561f1e-072d-451a-9953-7ebb0156e61d.png)
+
+<b>Publicando a Aplicação</b>
+Clique no sinal de + e em seguida clique em Projects
+
+![image](https://user-images.githubusercontent.com/46925501/162029468-bf91ec4c-eac8-4a4e-8ab0-ab77a21ffcd4.png)
+  
+Selecione seu projeto e em seguida em Task. Selecione todos as tarefas que criamos até o momento e cliquem em <i>Publish to application</i>
+![image](https://user-images.githubusercontent.com/46925501/162032167-70b9a2f3-c238-4a2b-8163-59df72345488.png)
+
+Selecione a sua aplicação e cliquem em <i>Publish</i>
+![image](https://user-images.githubusercontent.com/46925501/162032403-2d0b311c-a2ec-4917-abf5-6f244164db9a.png)
+
+Agora clique no sinal <b>+</b> e selecione Application
+
+![image](https://user-images.githubusercontent.com/46925501/162032721-9451b3d1-9770-4b15-9124-dcfee96f9450.png)
+
+Acesse o <i>Default Application</i> que está disponível no seu Workspace
+![image](https://user-images.githubusercontent.com/46925501/162032940-f2f5842d-1156-4f88-8a80-69307a168c20.png)
+
+Ao acessar a <i>Application</i> você vai localizar as Integrations Task que publicamos na seção anterior
+![image](https://user-images.githubusercontent.com/46925501/162033248-5acfeb5f-9c97-4b82-87ed-e2f1f743714c.png)
+  
+<b>Criando e Configurando o Pipeline de Dados</b>
+
+
+  
+
+
+
+
+
+
