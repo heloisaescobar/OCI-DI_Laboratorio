@@ -12,8 +12,6 @@
 
 ### Provisionamento Workspace
 
-<b>Provisionamento do Workspace</b>
-
 Expanda a lista de serviços da OCI utilizando o menu de hambúrguer, no canto superior esquerdo. Em seguida, selecione Oracle Database e clique em Analytics & AI e clique me Data Integration
 
 ![image](https://user-images.githubusercontent.com/46925501/155429984-23074dfd-a568-4474-bd97-fbb84aa25f3f.png)
