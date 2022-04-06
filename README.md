@@ -635,3 +635,27 @@ A execução da Integration Task vai começar e você será direcionado para a a
 ![image](https://user-images.githubusercontent.com/46925501/162045853-70b93564-0ff7-4fd3-9c22-0a5924504c65.png)
 
 ### Tópico Bonus - Scheduler
+
+Nessa sessão vamos criar e configurar um Agendamento
+
+Clique no sinal de + e selecione Application
+  
+![image](https://user-images.githubusercontent.com/46925501/162068022-63496656-25ee-4e2d-b261-d30896763ecb.png)
+
+Em Application clique em <i>Schedules</i> > <i>Create Schedule</i>
+![image](https://user-images.githubusercontent.com/46925501/162068360-36575fef-1240-47e6-a960-fd74a10662b7.png)
+
+Configure o formulário conforme imagem
+![image](https://user-images.githubusercontent.com/46925501/162068705-8765dfc6-ddbf-4ece-a2c5-fd6d04404d31.png)
+
+<b>Relacionar Scheduler a uma Taks</b>
+Criamos um Scheduler, agora precisamos relacionar ele a uma tarefa, para isso ainda em applications, clicamos em Tasks e clicamos nos três pontinhos de uma tarefa que queremos configurar o scheduler
+![image](https://user-images.githubusercontent.com/46925501/162069062-e936cf23-cf4d-4dde-952c-6e5cac3245b9.png)
+  
+Clique em schedule
+![image](https://user-images.githubusercontent.com/46925501/162069184-b455e78d-c622-4aa2-a28d-8a2e56adadd8.png)
+
+Configurar conforme imagem
+![image](https://user-images.githubusercontent.com/46925501/162069575-3560d4b3-2c3c-462c-af0f-059adc9890a6.png)
+
+Seu scheduler foi criado com sucesso.
