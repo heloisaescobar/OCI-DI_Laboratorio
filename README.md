@@ -8,7 +8,7 @@
 
 ## OCI Data Integration e Data Flow
 
-<i>Pré Requisitos: Ter Compartimento Criado, VCN, Aplicar as [Policies](https://github.com/heloisaescobar/InLab-Pipeline-Dados-Aplicado-Eventos/blob/master/scripts_apoio/policies_anexo.txt)</i>.
+<i>Pré Requisitos: Ter Compartimento Criado, VCN, Aplicar as [Policies](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/arquivos_apoio/policies.txt)</i>.
 
 ### Provisionamento Workspace - OCI Data Integration
 
