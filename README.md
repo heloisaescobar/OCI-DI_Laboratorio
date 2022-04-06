@@ -4,7 +4,7 @@
 * [Provisionamento Workspace - OCI Data Integration](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/README.md#provisionamento-workspace)
 * [Provisionamento Data Flow - OCI Data Flow]
 * [Preparação Procedure - Autonomous]
-* [Montagem Pipeline]
+* [Montagem Pipeline - OCI Data Integration]
 
 ## OCI Data Integration e Data Flow
 
@@ -162,12 +162,23 @@ Verificar se os comandos foram executaos com sucesso.
 
 <b>Atenção:</b> Fizemos a criação da nossa tabela para registro do nosso pipeline e a procedure, contudo não vamos utilizar elas nesse momento.
 
-_________________
-### Criação dos Data Assets
+### Montagem Pipeline - OCI Data Integration
+
+Nessa etapa, vamos utilizar todos os passos anteriores para criar nosso pipeline de dados.
+
+##### Criação dos Data Assets
+
+Expanda a lista de serviços da OCI utilizando o menu de hambúrguer, no canto superior esquerdo. Em seguida, clique em Analytics & AI e clique me Data Integration
+
+![image](https://user-images.githubusercontent.com/46925501/161991683-7ec748f1-edf6-4c51-96d4-95c332c1d14c.png)
+
+Selecion o Workspace que criamos nos primeiros passos
+
+![image](https://user-images.githubusercontent.com/46925501/161991818-6f4ac7df-623b-4940-a5e9-9150a1d8681e.png)
 
 <b>Criando o Data Asset do Autonomous Data Warehouse</b>
 
-Pré-requisito: Ter um Autonomous Data Warehouse provisionado, ter um usuário com privilégios DBMS_CLOUD e DWROLE. Para provisionar o Autonomous [clique aqui](https://github.com/heloisaescobar/InLab-Pipeline-Dados-Aplicado-Eventos#autonomous-data-warehouse)
+Pré-requisito: Ter um Autonomous Data Warehouse provisionado, ter um usuário com privilégios DBMS_CLOUD e DWROLE.
 
 Antes começarmos a criação do Data Asset do Oracle Autonomous Data Warehouse nós precisamos salvar a Wallet de acesso ao banco. Para isso siga os passos abaixo:
 Expanda a lista de serviços da OCI utilizando o menu de hambúrguer, no canto superior esquerdo. Em seguida, selecione Oracle Database e clique em Autonomous Data Warehouse.
