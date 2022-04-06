@@ -341,6 +341,36 @@ Agora preenchemos o formulário, conforme abaixo
 
 <b>Atenção:</b> Criamos com sucesso nossa tarefa SQL para chamada da Procedure
 
+##### Criação e Configuração do Data Flow Designer
 
+Nessa fase vamos configurar mais um passo do nosso fluxo dados, trabalhando o parquet que vamos gerar a partir da nossa aplicação OCI Data Flow para que seja executado no nosso pipeline de dados dentro do OCI Data Integration.
+ 
+Clique no sinal de <b>+</b> e em seguida clique em Projects
+  
+![image](https://user-images.githubusercontent.com/46925501/162002747-287a1cd6-f5d6-4d6b-b461-ce4239670b97.png)
 
+Selecione a guia Data Flow na lateral esquerda e em seguida clique em Create Data Flow
+  
+![image](https://user-images.githubusercontent.com/46925501/162002930-8dc3bec9-7275-4425-b913-ccf2195f5180.png)
+  
+<b>Configurações do Data Flow</b>
+  
+Com o canvas do Data Flow aberto vamos fazer o desenho do fluxo de dados e configurar cada um dos operadores.
+ 
+Na tela do Data Flow desing, no painel de <i>Properties</i>, dê um nome ao Data Flow e verifique se o projeto correto está selecionado.
 
+![image](https://user-images.githubusercontent.com/46925501/162003955-86e2bb56-d59b-4a5c-b9a9-afe35fc195b3.png)
+
+<b>Configurações os Operadores Source</b>
+ 
+Em seguida vamos começar a criação do Fluxo de Dados.
+  
+Clique no Painel Operators e arraste um Operador de Source(Fonte) e um de Target(Destino)
+ 
+![image](https://user-images.githubusercontent.com/46925501/162004370-1720b12f-d008-4710-ab0f-4cd90a771239.png)
+
+Clique no Operador Source que você arrastou até o Canvas do Data Flow, em seguida no Painel Properties, dê um nome ao Operador
+  
+![image](https://user-images.githubusercontent.com/46925501/162004680-a9013013-5cbe-4f43-8f4c-ff02f1463001.png)
+
+Agora vamos configurar cada propriedade indicada no painel Properties: Data Asset, Connection, Schema e Data Entity
