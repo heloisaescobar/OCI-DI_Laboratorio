@@ -38,7 +38,7 @@ Entre os principais pré-requisitos do Data Flow, também temos alguns recursos 
 * Buckets de input e outputs de dados;
 * Identificação do Namespace do Object Storage;
 * Download do script python de exemplo;
-* Download do Dataset framingham.csv em formato csv.
+* Download do Dataset [framingham.csv](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/arquivos_apoio/framingham.csv) em formato csv.
 
 <b>Verificação dos buckets necessários</b>
 
