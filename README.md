@@ -132,7 +132,20 @@ Após clicar no botão, iremos fornecer as informações necessárias para a cri
 
 ![image](https://user-images.githubusercontent.com/46925501/161985196-a3ff6f0d-d010-456a-8057-c0d7848e63a2.png)
 
-<b>Atenção:</b> Fizemos a criação da nossa aplicação spark, contudo não vamos executar ela nesse momento.
+<b>Executando a Aplicação</b>
+Após a criação da sua aplicação no OCI Data Flow, agora podemos executar o código quantas vezes necessário através do botão RUN na console.
+![image](https://user-images.githubusercontent.com/46925501/162047955-552a9d19-7df1-4df2-affd-9dc6f8c841e2.png)
+
+Para cada execução podemos definir individualmente os parâmetros relacionados a infraestrutura alocada ou argumentos.
+Para executarmos, vamos clicar em <i>RUN</i>
+![image](https://user-images.githubusercontent.com/46925501/162048355-7e7046de-ce3b-4b5e-a27e-7451342c7161.png)
+
+Vamos manter as configurações já configuradas na própria aplicação e clica em <i>RUN</i>
+![image](https://user-images.githubusercontent.com/46925501/162048570-0d850690-c3e6-4ea8-bb5a-6c503906da96.png)
+
+Você será direcionado para a aplicação que está sendo executada e poderá acompanhar o processo de execução
+![image](https://user-images.githubusercontent.com/46925501/162048818-89d4de6a-5c69-4eee-ad68-8556a7dd503d.png)
+
 
 #### Preparação Procedure - Autonomous Data Warehouse
 
