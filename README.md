@@ -309,5 +309,22 @@ Agora preenchemos o formulário, conforme abaixo
 ![image](https://user-images.githubusercontent.com/46925501/161997141-6742625c-cca6-417d-abd5-9453cbe03ef2.png)
 ![image](https://user-images.githubusercontent.com/46925501/161997330-31171734-e55d-47b1-a314-66a95c0f5382.png)
 
+<b>Atenção</b> Criamos com sucesso nossa tarefa OCI Data Flow.
+  
+##### Criação Chamada Procedure
 
+Nessa fase vamos configurar a nossa procedure criada no Autonomous Data Warehouse para que seja executado no nosso pipeline de dados dentro do OCI Data Integration.
+  
+Dentro no nosso workspace, clicar em <b>+</b> e em seguida clique em <i>Projects</i>
+  
+![image](https://user-images.githubusercontent.com/46925501/161994564-242b0d37-d0b9-458f-ad53-9e0def67b864.png)
 
+Acesse seu projeto
+  
+![image](https://user-images.githubusercontent.com/46925501/161994961-5d239dc7-694c-4222-852c-0929609c8d79.png)
+
+Clique em <i>Tasks</i>
+
+![image](https://user-images.githubusercontent.com/46925501/161995356-1f966482-dfa9-4bb7-b2c7-56b870b18795.png)
+
+![image](https://user-images.githubusercontent.com/46925501/161998325-124616d2-9529-43ea-8144-af1930821357.png)
