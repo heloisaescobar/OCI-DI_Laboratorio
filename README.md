@@ -581,5 +581,44 @@ Após finalizar a configuração do pipeline, teremos um Canvas similar a imagem
 
 <b>Criando Integration Task do Pipeline</b>
 
+Clique no sinal de + e em seguida clique em Projects
+  
+![image](https://user-images.githubusercontent.com/46925501/162042584-c005ebc5-39a2-4ac5-8f48-2a4d6bdbd1a3.png)
+
+Selecione seu projeto e em seguida em Task, clique em Create Task e escolha a opção Pipeline
+![image](https://user-images.githubusercontent.com/46925501/162042840-48947e89-3963-40cc-9077-2dc6474e53cc.png)
+
+Dê um nome a Pipeline Task e verifique se o seu projeto está selecionado, em seguida clique no botão Select para selecionar o Pipeline que será usado na Task
+![image](https://user-images.githubusercontent.com/46925501/162043085-ec7e2ebd-b34f-4621-b4e0-a626f3309093.png)
+![image](https://user-images.githubusercontent.com/46925501/162043173-17633509-a409-4f75-82a9-688004acd4c3.png)
+![image](https://user-images.githubusercontent.com/46925501/162043343-73a68af2-91bd-496c-94d7-ad231db2f1f8.png)
+![image](https://user-images.githubusercontent.com/46925501/162043449-02e98d24-7019-4eef-9e6b-3e5664e25041.png)
+
+Publicando a Aplicação Clique no sinal de + e em seguida clique em Projects
+![image](https://user-images.githubusercontent.com/46925501/162043527-9fa9d69a-e436-4b25-b5a6-8c471249d19f.png)
+
+Selecione seu projeto e em seguida em Task. Selecione apenas o Pipeline que acabamos de criar e clique em <i>Publich to application</i>
+![image](https://user-images.githubusercontent.com/46925501/162043938-13b7a8aa-b6b1-494f-a764-abc63df43647.png)
+
+Selecione a sua aplicação e cliquem em Publish
+![image](https://user-images.githubusercontent.com/46925501/162044008-631c28ad-9464-4444-9b39-32234f9f754f.png)
+
+Agora clique no sinal + e selecione Application
+![image](https://user-images.githubusercontent.com/46925501/162044066-d69a2b30-e14f-4e66-b1b6-3cf0728238da.png)
+
+Acesse o Default Application que está disponível no seu Workspace
+![image](https://user-images.githubusercontent.com/46925501/162044122-10c3341b-476a-449a-9ff5-918fb3e5c9d9.png)
+
+Acesse o Default Application que está disponível no seu Workspace
+![image](https://user-images.githubusercontent.com/46925501/162044507-fb06ae29-2d2d-4fd7-bd25-9b506693c7cd.png)
+
+Ao acessar a Application você vai localizar as Integrations Task que publicamos na seção anterior.
+
+Para executarmos, clicamos nos três pontinhos da tarefa que queromos executar e clicamos em <i></i>
+
+![image](https://user-images.githubusercontent.com/46925501/162045513-f94f6c62-0aca-41b6-9278-cd8b1dbd72c4.png)
+
+A execução da Integration Task vai começar e você será direcionado para a aba Runs. Você poderá utilizar o botão <i>Refresh</i> para visualizar o progresso da Integration Task
+![image](https://user-images.githubusercontent.com/46925501/162045853-70b93564-0ff7-4fd3-9c22-0a5924504c65.png)
 
 
