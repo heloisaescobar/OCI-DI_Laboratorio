@@ -2,15 +2,15 @@
 
 ## Roteiro
 * [Provisionamento Workspace - OCI Data Integration](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/README.md#provisionamento-workspace)
-* [Provisionamento Data Flow]
+* [Provisionamento Data Flow - OCI Data Flow]
 * [Preparação Procedure - Autonomous]
 * [Montagem Pipeline]
 
-## OCI Data Integration
+## OCI Data Integration e Data Flow
 
 <i>Pré Requisitos: Ter Compartimento Criado, VCN, Aplicar as [Policies](https://github.com/heloisaescobar/InLab-Pipeline-Dados-Aplicado-Eventos/blob/master/scripts_apoio/policies_anexo.txt)</i>.
 
-### Provisionamento Workspace
+### Provisionamento Workspace - OCI Data Integration
 
 Expanda a lista de serviços da OCI utilizando o menu de hambúrguer, no canto superior esquerdo. Em seguida, selecione Oracle Database e clique em Analytics & AI e clique me Data Integration
 
@@ -27,6 +27,8 @@ Dê um nome ao Workspace, Descrição, clique em ‘Enable private Networking’
 Após alguns minutos você verá seu workspace listado como <i>Active</i>.
 
 ![image](https://user-images.githubusercontent.com/46925501/161567062-5b837e0e-6dbc-4f7d-9c3e-e65e97ac5d32.png)
+
+### Provisionamento Data Flow - OCI Data Flow
 
 ### Criação dos Data Assets
 
