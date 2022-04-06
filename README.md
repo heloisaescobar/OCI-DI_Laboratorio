@@ -1,7 +1,7 @@
 # Laboratório - Criação Pipeline de Dados (OCI Data Integration e OCI Data Flow)
 
 ## Roteiro
-* [Provisionamento Workspace - OCI Data Integration]
+* [Provisionamento Workspace - OCI Data Integration](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/README.md#provisionamento-workspace)
 * [Provisionamento Data Flow]
 * [Preparação Procedure - Autonomous]
 * [Montagem Pipeline]
