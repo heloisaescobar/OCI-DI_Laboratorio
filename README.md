@@ -5,6 +5,7 @@
 * [Provisionamento Data Flow - OCI Data Flow](https://github.com/heloisaescobar/OCI-DI_Laboratorio/blob/main/README.md#provisionamento-data-flow---oci-data-flow)
 * [Preparação Procedure - Autonomous](https://github.com/heloisaescobar/OCI-DI_Laboratorio#prepara%C3%A7%C3%A3o-procedure---autonomous-data-warehouse)
 * [Montagem Pipeline - OCI Data Integration](https://github.com/heloisaescobar/OCI-DI_Laboratorio#montagem-pipeline---oci-data-integration)
+* [Tópico Bonus - Scheduler]
 
 ## OCI Data Integration e Data Flow
 
@@ -633,4 +634,4 @@ Para executarmos, clicamos nos três pontinhos da tarefa que queromos executar e
 A execução da Integration Task vai começar e você será direcionado para a aba Runs. Você poderá utilizar o botão <i>Refresh</i> para visualizar o progresso da Integration Task
 ![image](https://user-images.githubusercontent.com/46925501/162045853-70b93564-0ff7-4fd3-9c22-0a5924504c65.png)
 
-
+### Tópico Bonus - Scheduler
